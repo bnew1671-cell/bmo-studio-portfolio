@@ -1,0 +1,1 @@
+Add real, approved business-card front, back, and mockup images here. Reference samples from the business-card category `gallery` array in `data/pricing.json`.
