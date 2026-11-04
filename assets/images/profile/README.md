@@ -1,0 +1,1 @@
+Optimized portrait photos for Baraka Muhsini Omary are used in the About section of the portfolio.
