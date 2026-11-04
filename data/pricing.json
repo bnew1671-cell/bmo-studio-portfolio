@@ -1,0 +1,89 @@
+{
+  "_sampleNotice": "SAMPLE STARTING PRICES. Confirm and edit all rates before publishing.",
+  "categories": [
+    {
+      "id": "web",
+      "title": "pricing.categories.web",
+      "description": "pricing.categoryDescriptions.web",
+      "packages": [
+        { "id": "landing", "name": "pricing.packages.landing", "subtitle": "pricing.packageNotes.landing", "price": 250000, "includes": ["pricing.includes.responsive", "pricing.includes.contact", "pricing.includes.map", "pricing.includes.seo", "pricing.includes.hosting", "pricing.includes.revisions"] },
+        { "id": "starter", "name": "pricing.packages.starter", "subtitle": "pricing.packageNotes.starter", "price": 350000, "includes": ["pricing.includes.responsive", "pricing.includes.contact", "pricing.includes.map", "pricing.includes.seo", "pricing.includes.hosting", "pricing.includes.revisions"] },
+        { "id": "business", "name": "pricing.packages.business", "subtitle": "pricing.packageNotes.business", "price": 600000, "includes": ["pricing.includes.responsive", "pricing.includes.contact", "pricing.includes.map", "pricing.includes.seo", "pricing.includes.hosting", "pricing.includes.revisions"] },
+        { "id": "professional", "name": "pricing.packages.professional", "subtitle": "pricing.packageNotes.professional", "price": 1200000, "includes": ["pricing.includes.responsive", "pricing.includes.contact", "pricing.includes.map", "pricing.includes.seo", "pricing.includes.hosting", "pricing.includes.revisions"] },
+        { "id": "custom", "name": "pricing.packages.custom", "subtitle": "pricing.packageNotes.custom", "price": 2000000, "from": true, "quote": true, "includes": ["pricing.includes.ecommerce", "pricing.includes.customScope", "pricing.includes.quote"] }
+      ],
+      "extras": [
+        { "name": "pricing.extras.extraPage", "price": 80000 },
+        { "name": "pricing.extras.bilingual", "price": 100000 },
+        { "name": "pricing.extras.logoBundle", "price": null, "note": "pricing.extras.discountBundle" },
+        { "name": "pricing.extras.domainHelp", "price": 50000 },
+        { "name": "pricing.extras.maintenance", "price": 50000, "suffix": "pricing.extras.perMonth" }
+      ]
+    },
+    {
+      "id": "logo",
+      "title": "pricing.categories.logo",
+      "description": "pricing.categoryDescriptions.logo",
+      "packages": [
+        { "id": "logo-basic", "name": "pricing.packages.logoBasic", "subtitle": "pricing.packageNotes.logoBasic", "price": 50000, "includes": ["pricing.includes.twoConcepts", "pricing.includes.oneRevision", "pricing.includes.pngFiles"] },
+        { "id": "logo-standard", "name": "pricing.packages.logoStandard", "subtitle": "pricing.packageNotes.logoStandard", "price": 100000, "includes": ["pricing.includes.threeConcepts", "pricing.includes.threeRevisions", "pricing.includes.vectorFiles"] },
+        { "id": "logo-premium", "name": "pricing.packages.logoPremium", "subtitle": "pricing.packageNotes.logoPremium", "price": 200000, "includes": ["pricing.includes.fiveConcepts", "pricing.includes.reasonableRevisions", "pricing.includes.brandFiles", "pricing.includes.colorFontGuide"] }
+      ],
+      "gallery": [
+        { "image": "assets/images/logos/greenlandia-brand-identity.jpeg", "alt": "Greenlandia eco-lifestyle brand identity with a lush green logo system" },
+        { "image": "assets/images/logos/birea-brand-identity.jpeg", "alt": "BIREA natural wellness brand identity with a premium green logo" },
+        { "image": "assets/images/logos/brand-designs.jpeg", "alt": "Collection of branded identity concepts with bold typography and simple shapes" },
+        { "image": "assets/images/logos/real-estate-logo-identity.jpeg", "alt": "Real estate logo and identity concept with clean geometric mark and blue palette" },
+        { "image": "assets/images/logos/formidable-logo.jpeg", "alt": "Custom logo concept with a luxury look and strong circular emblem" }
+      ]
+    },
+    {
+      "id": "business-card",
+      "title": "pricing.categories.businessCard",
+      "description": "pricing.categoryDescriptions.businessCard",
+      "packages": [
+        { "id": "card-single", "name": "pricing.packages.cardSingle", "subtitle": "pricing.packageNotes.cardSingle", "price": 20000, "includes": ["pricing.includes.oneDesign", "pricing.includes.printReady"] },
+        { "id": "card-double", "name": "pricing.packages.cardDouble", "subtitle": "pricing.packageNotes.cardDouble", "price": 35000, "includes": ["pricing.includes.frontBack", "pricing.includes.printReady", "pricing.includes.twoRevisions"] },
+        { "id": "card-premium", "name": "pricing.packages.cardPremium", "subtitle": "pricing.packageNotes.cardPremium", "price": 60000, "includes": ["pricing.includes.twoConcepts", "pricing.includes.mockup", "pricing.includes.printReady"] }
+      ],
+      "note": "pricing.businessCardNote",
+      "gallery": [
+        { "image": "assets/images/business-cards/business-card-design.jpeg", "alt": "Premium graphic design business card in deep red with elegant typography" },
+        { "image": "assets/images/business-cards/luxury-beauty-card.jpeg", "alt": "Luxury beauty salon business card with a red and black aesthetic and makeup imagery" },
+        { "image": "assets/images/business-cards/modern-minimalist-card.jpeg", "alt": "Minimal business card concept with a clean icon, curved waves and dark blue palette" },
+        { "image": "assets/images/business-cards/small-business-card-designs.jpeg", "alt": "Compact small business card concepts with a bright professional presentation" },
+        { "image": "assets/images/business-cards/vegetable-business-card.jpeg", "alt": "Fresh vegetable brand business card mockup with green, natural products and a basket illustration" }
+      ]
+    },
+    {
+      "id": "identity",
+      "title": "pricing.categories.identity",
+      "description": "pricing.categoryDescriptions.identity",
+      "packages": [
+        { "id": "brand-identity", "name": "pricing.packages.identity", "subtitle": "pricing.packageNotes.identity", "price": 350000, "from": true, "includes": ["pricing.includes.logo", "pricing.includes.businessCard", "pricing.includes.letterhead", "pricing.includes.colorPalette", "pricing.includes.brandGuide"] }
+      ]
+    },
+    {
+      "id": "print",
+      "title": "pricing.categories.print",
+      "description": "pricing.categoryDescriptions.print",
+      "packages": [
+        { "id": "flyer", "name": "pricing.packages.flyer", "subtitle": "pricing.packageNotes.flyer", "price": 30000, "from": true, "includes": ["pricing.includes.printDesign"] },
+        { "id": "brochure", "name": "pricing.packages.brochure", "subtitle": "pricing.packageNotes.brochure", "price": null, "quote": true, "includes": ["pricing.includes.customScope"] },
+        { "id": "banner", "name": "pricing.packages.banner", "subtitle": "pricing.packageNotes.banner", "price": null, "quote": true, "includes": ["pricing.includes.customScope"] },
+        { "id": "roll-up", "name": "pricing.packages.rollup", "subtitle": "pricing.packageNotes.rollup", "price": null, "quote": true, "includes": ["pricing.includes.customScope"] }
+      ]
+    },
+    {
+      "id": "social",
+      "title": "pricing.categories.social",
+      "description": "pricing.categoryDescriptions.social",
+      "packages": [
+        { "id": "social-single", "name": "pricing.packages.socialSingle", "subtitle": "pricing.packageNotes.socialSingle", "price": 10000, "from": true, "includes": ["pricing.includes.onePost"] },
+        { "id": "social-12", "name": "pricing.packages.social12", "subtitle": "pricing.packageNotes.social12", "price": 100000, "includes": ["pricing.includes.twelvePosts"] },
+        { "id": "social-20", "name": "pricing.packages.social20", "subtitle": "pricing.packageNotes.social20", "price": 160000, "includes": ["pricing.includes.twentyPosts"] },
+        { "id": "social-30", "name": "pricing.packages.social30", "subtitle": "pricing.packageNotes.social30", "price": 220000, "includes": ["pricing.includes.thirtyPosts"] }
+      ]
+    }
+  ]
+}
