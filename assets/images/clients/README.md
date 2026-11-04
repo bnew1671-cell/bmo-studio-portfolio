@@ -1,0 +1,1 @@
+Add client images only with permission. Reference them from `data/testimonials.json` and provide accurate alt text.
