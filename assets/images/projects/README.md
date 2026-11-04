@@ -1,0 +1,1 @@
+Screenshots for the SokoLink and ClimTrek Hub web projects are included here and referenced in `data/projects.json`. Add other compressed, approved project covers and gallery images in this folder. Do not add stock work or work you do not have permission to publish.
