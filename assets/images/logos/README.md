@@ -1,0 +1,1 @@
+Add real, approved logo designs here. Reference samples from the logo category `gallery` array in `data/pricing.json`.
