@@ -81,6 +81,7 @@ async function start() {
   initNavigation();
   let refreshPricing = () => {};
   let refreshPortfolio = () => {};
+  let refreshFeedback = () => {};
   const rerenderLanguage = () => {
     renderServices(settings);
     renderWhatsAppActions(settings);
@@ -88,11 +89,12 @@ async function start() {
     document.querySelector("#payment-note").textContent = settings.paymentNote?.[getLanguage()] || "";
     refreshPricing();
     refreshPortfolio();
+    refreshFeedback();
   };
   initI18n(translations, document.querySelector("#language-select"), rerenderLanguage);
   refreshPricing = initPricing(pricing, settings);
   refreshPortfolio = initPortfolio(projects, pricing);
-  initFeedback(testimonials);
+  refreshFeedback = initFeedback(testimonials);
   initContact(settings);
   renderServices(settings);
   renderWhatsAppActions(settings);
