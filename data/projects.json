@@ -1,5 +1,19 @@
 [
   {
+    "title": "KEVIS CATERING — catering website",
+    "titleSw": "KEVIS CATERING — tovuti ya huduma za upishi",
+    "category": "web",
+    "description": "A bilingual catering website showcasing wedding, corporate, and private-event services, with menu packages and WhatsApp booking.",
+    "descriptionSw": "Tovuti ya huduma za upishi ya lugha mbili inayoonyesha huduma za harusi, kampuni na sherehe binafsi, pamoja na vifurushi vya menyu na nafasi kupitia WhatsApp.",
+    "date": "2026",
+    "image": "assets/images/projects/kevis-catering-website.png",
+    "imageFit": "contain",
+    "alt": "KEVIS CATERING website homepage with a dark green and gold luxury theme and WhatsApp booking",
+    "altSw": "Ukurasa wa mwanzo wa tovuti ya KEVIS CATERING wenye mandhari ya kifahari ya kijani iliyokolea na dhahabu pamoja na nafasi kupitia WhatsApp",
+    "featured": true,
+    "url": "https://kevis-catering.lovable.app/"
+  },
+  {
     "title": "SokoLink — Local marketplace",
     "titleSw": "SokoLink — Soko la karibu",
     "category": "web",
